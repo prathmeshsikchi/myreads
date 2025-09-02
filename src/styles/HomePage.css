@@ -1,0 +1,39 @@
+.Header{
+    background: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MainContainer{
+    padding: 40px;
+}
+
+.CategoryHeading{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.BooksContainer{
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.SearchButton{
+    display: flex;
+    background: green;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
