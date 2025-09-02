@@ -193,7 +193,8 @@ function changeCategory(id, category){
     <Routes>
       <Route path='/' element={<HomePage books={booksInformation} 
       handleCategoryChange={(id, category)=> changeCategory(id, category)}/>}></Route>
-      <Route path='/AddBooks' element={<AddBooks></AddBooks>}></Route>
+      <Route path='/AddBooks' element={<AddBooks books={booksInformation} 
+      handleCategoryChange={(id, category)=> changeCategory(id, category)}></AddBooks>}></Route>
     </Routes>
   );
 }
