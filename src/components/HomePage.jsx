@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
 
 export default function HomePage(props){
     // console.log(props.books[0].image)
-    const currentlyReadingArray = props.books.filter(element => element.category === '1');
+    const currentlyReadingArray = props.books.filter(element => element.category === 'currentlyReading');
     // console.log(currentlyReadingArray.length)
-    const wantToReadArray = props.books.filter(element => element.category === '2');
-    const readArray = props.books.filter(element => element.category === '3');
+    const wantToReadArray = props.books.filter(element => element.category === 'wantToRead');
+    const readArray = props.books.filter(element => element.category === 'read');
 
     return(
         <div>
